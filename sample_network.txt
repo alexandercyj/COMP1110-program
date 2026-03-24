@@ -1,0 +1,22 @@
+# Sample network text file based on teammate's data structure
+# STOP|id|name_cn|name_en|x|y|is_accessible
+# LINE|id|name|color|mode
+# SEGMENT|from_stop|to_stop|line|duration|cost|mode
+
+STOP|KET|堅尼地城|Kennedy Town|150|800|true
+STOP|HKU|香港大學|HKU|250|800|true
+STOP|CEN|中環|Central|350|800|true
+STOP|ADM|金鐘|Admiralty|450|800|true
+STOP|WCH|黃竹坑|Wong Chuk Hang|490|900|true
+
+LINE|ISL|Island Line|#007DC5|MTR
+LINE|BUS1|Bus Route 1|#000000|BUS
+LINE|SIL|South Island Line|#CBD300|MTR
+
+SEGMENT|KET|HKU|ISL|3|5.0|MTR
+SEGMENT|HKU|CEN|ISL|4|5.0|MTR
+SEGMENT|CEN|ADM|ISL|3|5.0|MTR
+SEGMENT|ADM|WCH|SIL|8|10.0|MTR
+SEGMENT|KET|HKU|BUS1|8|4.5|BUS
+SEGMENT|HKU|CEN|BUS1|10|4.5|BUS
+SEGMENT|CEN|ADM|BUS1|12|4.5|BUS
