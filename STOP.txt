@@ -1,84 +1,84 @@
 STOP|id|name_cn|name_en|x|y|is_accessible
-STOP|KET|ˆÔÄáµØ³Ç|Kennedy Town|150|800|true
-STOP|HKU|Ïã¸Û´óŒW|HKU|250|800|true
-STOP|CEN|ÖÐ­h|Central|350|800|true
-STOP|ADM|½ðçŠ|Admiralty|450|800|true
-STOP|WCH|üSÖñ¿Ó|Wong Chuk Hang|490|900|true
-STOP|TST|¼âÉ³¾×|Tsim Sha Tsui|450|650|true
-STOP|MOK|Íú½Ç|Mong Kok|500|600|true
-STOP|MEI|ÃÀæÚ|Mei Foo|500|500|true
-STOP|LAI|Àó¾°|Lai King|450|500|true
-STOP|NAC|ÄÏ²ý|Nam Cheong|400|550|true
-STOP|KOW|¾Åýˆ|Kowloon|350|550|true
-STOP|HOK|Ïã¸Û|Hong Kong|300|600|true
-STOP|AUS|¿ÂÊ¿µé|Austin|450|620|true
-STOP|ETS|¼â–||East Tsim Sha Tsui|470|650|true
-STOP|HUH|¼t´||Hung Hom|520|620|true
-STOP|HOM|ºÎÎÄÌï|Ho Man Tin|540|580|true
-STOP|KAT|†¢µÂ|Kai Tak|580|540|true
-STOP|DIH|èÊ¯É½|Diamond Hill|620|500|true
-STOP|KOT|¾ÅýˆÌÁ|Kowloon Tong|560|560|true
-STOP|SHS|ÉîÛÚ(ÉÏË®)|Shenzhen (Sheung Shui)|560|400|true
-STOP|SUN|ÐÀ°Ä|Sunny Bay|300|400|true
-STOP|AIR|™Cˆö|Airport|200|350|true
+STOP|KET|å …å°¼åœ°åŸŽ|Kennedy Town|150|800|true
+STOP|HKU|é¦™æ¸¯å¤§å­¸|HKU|250|800|true
+STOP|CEN|ä¸­ç’°|Central|350|800|true
+STOP|ADM|é‡‘é˜|Admiralty|450|800|true
+STOP|WCH|é»ƒç«¹å‘|Wong Chuk Hang|490|900|true
+STOP|TST|å°–æ²™å’€|Tsim Sha Tsui|450|650|true
+STOP|MOK|æ—ºè§’|Mong Kok|500|600|true
+STOP|MEI|ç¾Žå­š|Mei Foo|500|500|true
+STOP|LAI|è”æ™¯|Lai King|450|500|true
+STOP|NAC|å—æ˜Œ|Nam Cheong|400|550|true
+STOP|KOW|ä¹é¾|Kowloon|350|550|true
+STOP|HOK|é¦™æ¸¯|Hong Kong|300|600|true
+STOP|AUS|æŸ¯å£«ç”¸|Austin|450|620|true
+STOP|ETS|å°–æ±|East Tsim Sha Tsui|470|650|true
+STOP|HUH|ç´…ç£¡|Hung Hom|520|620|true
+STOP|HOM|ä½•æ–‡ç”°|Ho Man Tin|540|580|true
+STOP|KAT|å•Ÿå¾·|Kai Tak|580|540|true
+STOP|DIH|é‘½çŸ³å±±|Diamond Hill|620|500|true
+STOP|KOT|ä¹é¾å¡˜|Kowloon Tong|560|560|true
+STOP|SHS|æ·±åœ³(ä¸Šæ°´)|Shenzhen (Sheung Shui)|560|400|true
+STOP|SUN|æ¬£æ¾³|Sunny Bay|300|400|true
+STOP|AIR|æ©Ÿå ´|Airport|200|350|true
 
 LINE|id|name|color|mode
-LINE|ISL|¸Ûu¾€|#007DC5|MTR
-LINE|TWL|Üõž³¾€|#FF0000|MTR
-LINE|SIL|ÄÏ¸Ûu¾€|#CBD300|MTR
-LINE|EAL|–|èF¾€|#5AB4E6|MTR
-LINE|TKL|Ó^ÌÁ¾€|#00A55E|MTR
-LINE|TML|ÍÍñR¾€|#A23D2E|MTR
-LINE|AEL|™Cˆö¿ì¾€|#00888A|MTR
-LINE|BUS1|°ÍÊ¿1|#000000|BUS
-LINE|BUS2|°ÍÊ¿2|#000000|BUS
-LINE|BUS3|°ÍÊ¿3|#000000|BUS
+LINE|ISL|æ¸¯å³¶ç·š|#007DC5|MTR
+LINE|TWL|èƒç£ç·š|#FF0000|MTR
+LINE|SIL|å—æ¸¯å³¶ç·š|#CBD300|MTR
+LINE|EAL|æ±éµç·š|#5AB4E6|MTR
+LINE|TKL|è§€å¡˜ç·š|#00A55E|MTR
+LINE|TML|å±¯é¦¬ç·š|#A23D2E|MTR
+LINE|AEL|æ©Ÿå ´å¿«ç·š|#00888A|MTR
+LINE|BUS1|å·´å£«1|#000000|BUS
+LINE|BUS2|å·´å£«2|#000000|BUS
+LINE|BUS3|å·´å£«3|#000000|BUS
 
-SEGMENT|from_stop|to_stop|line|duration|cost|mode
-# ¸Ûu¾€£¨ŒWÉúÆ±ƒr $3.2£©
-SEGMENT|KET|HKU|ISL|3|3.2|MTR
-SEGMENT|HKU|CEN|ISL|4|3.2|MTR
-SEGMENT|CEN|ADM|ISL|3|3.2|MTR
-# Üõž³¾€£¨ŒWÉúÆ±ƒr $3.2-$4.9£©
-SEGMENT|CEN|ADM|TWL|2|3.2|MTR
-SEGMENT|ADM|TST|TWL|4|4.9|MTR
-SEGMENT|TST|MOK|TWL|3|3.2|MTR
-SEGMENT|MOK|MEI|TWL|5|4.9|MTR
-SEGMENT|MEI|LAI|TWL|2|3.2|MTR
-# ÄÏ¸Ûu¾€£¨ŒWÉúÆ±ƒr $4.9£©
-SEGMENT|ADM|WCH|SIL|8|4.9|MTR
-# –|èF¾€£¨ŒWÉúÆ±ƒr $4.9-$14.2£©
-SEGMENT|ADM|HUH|EAL|6|5.9|MTR
-SEGMENT|HUH|KOT|EAL|5|4.9|MTR
-SEGMENT|KOT|SHS|EAL|20|14.2|MTR
-# Ó^ÌÁ¾€£¨ŒWÉúÆ±ƒr $3.2-$4.9£©
-SEGMENT|DIH|KOT|TKL|3|3.2|MTR
-SEGMENT|KOT|MOK|TKL|4|4.9|MTR
-SEGMENT|MOK|HOM|TKL|3|3.2|MTR
-# ÍÍñR¾€£¨ŒWÉúÆ±ƒr $3.2-$4.9£©
-SEGMENT|MEI|NAC|TML|3|3.2|MTR
-SEGMENT|NAC|AUS|TML|4|4.9|MTR
-SEGMENT|AUS|ETS|TML|2|3.2|MTR
-SEGMENT|ETS|HUH|TML|3|3.2|MTR
-SEGMENT|HUH|HOM|TML|3|3.2|MTR
-SEGMENT|HOM|KAT|TML|4|4.9|MTR
-SEGMENT|KAT|DIH|TML|3|3.2|MTR
-# ™Cˆö¿ì¾€£¨ŒWÉúƒž»ÝÆ±ƒr£¬¼sžé³ÉÈËÆ±ƒrÒ»°ë£©
-SEGMENT|HOK|KOW|AEL|5|52.5|MTR
-SEGMENT|KOW|NAC|AEL|4|28.0|MTR
-SEGMENT|NAC|LAI|AEL|3|28.0|MTR
-SEGMENT|LAI|SUN|AEL|8|32.5|MTR
-SEGMENT|SUN|AIR|AEL|6|32.5|MTR
-# °ÍÊ¿1: ˆÔÄáµØ³Ç ¨C HKU ¨C ÖÐ­h ¨C ½ðçŠ ¨C üSÖñ¿Ó£¨±£³ÖÔ­ƒr£©
-SEGMENT|KET|HKU|BUS1|8|4.5|BUS
-SEGMENT|HKU|CEN|BUS1|10|4.5|BUS
-SEGMENT|CEN|ADM|BUS1|12|4.5|BUS
-SEGMENT|ADM|WCH|BUS1|15|5.0|BUS
-# °ÍÊ¿2: ¼âÉ³¾× ¨C ¼t´| ¨C ºÎÎÄÌï ¨C Íú½Ç£¨±£³ÖÔ­ƒr£©
-SEGMENT|TST|HUH|BUS2|6|3.5|BUS
-SEGMENT|HUH|HOM|BUS2|5|3.0|BUS
-SEGMENT|HOM|MOK|BUS2|7|3.5|BUS
-# °ÍÊ¿3: ÃÀæÚ ¨C ÄÏ²ý ¨C ¿ÂÊ¿µé ¨C †¢µÂ£¨±£³ÖÔ­ƒr£©
-SEGMENT|MEI|NAC|BUS3|8|4.0|BUS
-SEGMENT|NAC|AUS|BUS3|6|3.5|BUS
-SEGMENT|AUS|KAT|BUS3|10|5.0|BUS
+SEGMENT|from_stop|to_stop|line|duration|cost_adult|cost_student|mode
+# æ¸¯å³¶ç·š Island Line
+SEGMENT|KET|HKU|ISL|3|5.0|3.2|MTR
+SEGMENT|HKU|CEN|ISL|4|5.0|3.2|MTR
+SEGMENT|CEN|ADM|ISL|3|5.0|3.2|MTR
+# èƒç£ç·š Tsuen Wan Line
+SEGMENT|CEN|ADM|TWL|2|5.0|3.2|MTR
+SEGMENT|ADM|TST|TWL|4|6.0|4.9|MTR
+SEGMENT|TST|MOK|TWL|3|5.5|3.2|MTR
+SEGMENT|MOK|MEI|TWL|5|7.0|4.9|MTR
+SEGMENT|MEI|LAI|TWL|2|4.5|3.2|MTR
+# å—æ¸¯å³¶ç·š South Island Line
+SEGMENT|ADM|WCH|SIL|8|10.0|4.9|MTR
+# æ±éµç·š East Rail Line
+SEGMENT|ADM|HUH|EAL|6|8.0|5.9|MTR
+SEGMENT|HUH|KOT|EAL|5|7.0|4.9|MTR
+SEGMENT|KOT|SHS|EAL|20|25.0|14.2|MTR
+# è§€å¡˜ç·š Kwun Tong Lineï¼ˆåŽŸæ¨™ç‚ºèª¿æ™¯å¶ºç·šï¼‰
+SEGMENT|DIH|KOT|TKL|3|5.0|3.2|MTR
+SEGMENT|KOT|MOK|TKL|4|6.0|4.9|MTR
+SEGMENT|MOK|HOM|TKL|3|5.0|3.2|MTR
+# å±¯é¦¬ç·š Tuen Ma Line
+SEGMENT|MEI|NAC|TML|3|5.0|3.2|MTR
+SEGMENT|NAC|AUS|TML|4|6.0|4.9|MTR
+SEGMENT|AUS|ETS|TML|2|4.0|3.2|MTR
+SEGMENT|ETS|HUH|TML|3|5.0|3.2|MTR
+SEGMENT|HUH|HOM|TML|3|5.0|3.2|MTR
+SEGMENT|HOM|KAT|TML|4|6.0|4.9|MTR
+SEGMENT|KAT|DIH|TML|3|5.0|3.2|MTR
+# æ©Ÿå ´å¿«ç·š Airport Expressï¼ˆå­¸ç”Ÿåƒ¹ä¸€èˆ¬ç‚ºæˆäººåŠåƒ¹ï¼ŒåŽŸæ•¸æ“šä¿ç•™ä¾›åƒè€ƒï¼‰
+SEGMENT|HOK|KOW|AEL|5|105.0|52.5|MTR
+SEGMENT|KOW|NAC|AEL|4|56.0|28.0|MTR
+SEGMENT|NAC|LAI|AEL|3|56.0|28.0|MTR
+SEGMENT|LAI|SUN|AEL|8|65.0|32.5|MTR
+SEGMENT|SUN|AIR|AEL|6|65.0|32.5|MTR
+# å·´å£«1ï¼ˆåƒ¹æ ¼æ–‡ä»¶æœªæä¾›ï¼Œä¿ç•™åŽŸåƒ¹ï¼‰
+SEGMENT|KET|HKU|BUS1|8|4.5|N/A|BUS
+SEGMENT|HKU|CEN|BUS1|10|4.5|N/A|BUS
+SEGMENT|CEN|ADM|BUS1|12|4.5|N/A|BUS
+SEGMENT|ADM|WCH|BUS1|15|5.0|N/A|BUS
+# å·´å£«2ï¼ˆåƒ¹æ ¼æ–‡ä»¶æœªæä¾›ï¼Œä¿ç•™åŽŸåƒ¹ï¼‰
+SEGMENT|TST|HUH|BUS2|6|3.5|N/A|BUS
+SEGMENT|HUH|HOM|BUS2|5|3.0|N/A|BUS
+SEGMENT|HOM|MOK|BUS2|7|3.5|N/A|BUS
+# å·´å£«3ï¼ˆåƒ¹æ ¼æ–‡ä»¶æœªæä¾›ï¼Œä¿ç•™åŽŸåƒ¹ï¼‰
+SEGMENT|MEI|NAC|BUS3|8|4.0|N/A|BUS
+SEGMENT|NAC|AUS|BUS3|6|3.5|N/A|BUS
+SEGMENT|AUS|KAT|BUS3|10|5.0|N/A|BUS
