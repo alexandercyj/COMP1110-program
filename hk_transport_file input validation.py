@@ -1,5 +1,4 @@
 """
-Dean Xu's source code.
 Scope:
 1. Handle invalid or missing inputs.
 2. Load the transport network from a simple text file.
@@ -240,7 +239,6 @@ def validate_journey_query(
 
 
 if __name__ == "__main__":
-    print("Dean contribution module loaded.")
     print("Available functions:")
     print("- load_network_from_text(filename)")
     print("- validate_journey_query(network, origin, destination, preference)")
